@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto Galeri</title>
+    <link rel="stylesheet" href="page3.css">
+</head>
+<body>
+    <div class="gallery-wrap">
+        <img src="https://uniontravel.al/wp-content/uploads/2020/09/TURI-VERMOSH-TAMARE4_0.jpg" id="backBtn">
+        
+        <div class="gallery">
+        <div>
+            <span><img src="https://uniontravel.al/wp-content/uploads/2020/09/TURI-VERMOSH-TAMARE4_0.jpg"></span>
+            <span><img src="https://uniontravel.al/wp-content/uploads/2020/09/TURI-VERMOSH-TAMARE4_0.jpg"></span>
+            <span><img src="https://uniontravel.al/wp-content/uploads/2020/09/TURI-VERMOSH-TAMARE4_0.jpg"></span>
+        
+        
+        
+        <div>
+            <span><img src="https://uniontravel.al/wp-content/uploads/2020/09/TURI-VERMOSH-TAMARE4_0.jpg"></span>
+            <span><img src="https://uniontravel.al/wp-content/uploads/2020/09/TURI-VERMOSH-TAMARE4_0.jpg"></span>
+            <span><img src="https://uniontravel.al/wp-content/uploads/2020/09/TURI-VERMOSH-TAMARE4_0.jpg"></span>
+        
+        </div>
+    </div>
+    <img src="https://uniontravel.al/wp-content/uploads/2020/09/TURI-VERMOSH-TAMARE4_0.jpg" id="backBtn">
+</div>
+<script>
+let scrollContainer=document.querySelector(".gallery");
+let backBtn = document.getElementById("backBtn");
+let nextBtn = document.getElementById("nextBtn");
+
+scrollContainer.addEventListener('wheel', (evt) => {
+    evt.preventDefault();
+    scrollContainer.scrollLeft +=evt.deltaY;
+} );
+</script>
+
+  </body>
+</html>
+

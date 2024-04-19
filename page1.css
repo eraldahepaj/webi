@@ -1,0 +1,19 @@
+.gallery {
+    display: flex;
+    flex-direction: column; /* Rreshtat e fotove do të jenë vertikale */
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.photo {
+    flex: 1; /* Secila foto do të marrë të njëjtën hapësirë */
+    padding: 5px; /* Pak hapsirë midis fotove */
+}
+
+.photo img {
+    width: 100%; /* Fotot do të plotësojnë gjithë hapësirën në të cilën janë vendosur */
+    height: auto;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto Galeri</title>
+    <link rel="stylesheet" href="page3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-photo">
+            <img src="main-photo.jpg" alt="Fotografia kryesore">
+            <div class="caption">
+                <h1>Shkrimi kryesor</h1>
+                <p>Kjo është një përshkrim i fotove kryesore.</p>
+                <button id="show-photos">Shiko fotot</button>
+            </div>
+        </div>
+        <div class="additional-photos" id="additional-photos">
+            <h2>Foto të tjera</h2>
+            <div class="photos">
+                <!-- Foto të shtohen këtu me JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="page.js"></script>
+</body>
+</html>
+
